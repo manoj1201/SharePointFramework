@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "working-with-list-item-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/workingWithListItem/WorkingWithListItemWebPart.js",
+          "manifest": "./src/webparts/workingWithListItem/WorkingWithListItemWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WorkingWithListItemWebPartStrings": "lib/webparts/workingWithListItem/loc/{locale}.js"
+  }
+}

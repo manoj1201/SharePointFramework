@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "working-with-list-item-client-side-solution",
+    "id": "540a49d5-fb25-403b-b0c9-322093fc5dfb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/working-with-list-item.sppkg"
+  }
+}
